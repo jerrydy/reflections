@@ -1,3 +1,5 @@
 What happens when you initialize a repository? Why do you need to do it?
 
 	It adds a .git directory for git to put management information in. It is needed so git knows to start keeping track of the reposity files.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
