@@ -3,3 +3,17 @@ What happens when you initialize a repository? Why do you need to do it?
 	It adds a .git directory for git to put management information in. It is needed so git knows to start keeping track of the reposity files.
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+	The staging area is part of the repository.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+	Only add to the staging area modifications that are part of the same logical change.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	When you want make experimental changes to a file
+
+How do the diagrams help you visualize the branch structure?
+
+	It easily lets me know the tree structure.
