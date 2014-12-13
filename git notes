@@ -18,6 +18,7 @@ git diff			Compares changes between working and staging
 git diff --staged	Compares changes between staging and repository
 
 git remote			Lists remote repositories
+git remote -v		Lists remote repositories with verbose option
 git remote add origin <remote url>	Add a remote repository
 
 git push origin master	Pushes branch to the remote

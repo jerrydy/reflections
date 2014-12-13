@@ -29,3 +29,7 @@ What are the pros and cons of Git’s automatic merging vs. always doing merges 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 	This may slow down Git especially if many changes are being made to the remote
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+	Forking is used to clone a Github repository to your own id. Clones are used to copy another repository (from Github or otherwise). Branching is a way of isolating changes made to files in a repository.
