@@ -2,10 +2,11 @@ Notes on Git Commands:
 
 git checkout		checkouts a branch
 
-git status			show status
+git status			show repository status, compares master with origin/master on local repository
 
-git logs			show logs
+git log				show logs
 git log --graph --oneline	show logs in graph form with each commit as a line
+git log <branch>	show logs for a branch
 
 git branch			Lists branches in repository
 
@@ -23,4 +24,8 @@ git remote add origin <remote url>	Add a remote repository
 
 git push origin master	Pushes branch to the remote
 
-git pull origin master	Pulls branch to local repository
+git pull origin master	Pulls branch to local repository, merging changes if needed
+
+git fetch origin	Gets changes since last pull to local repository, using origin/master as branch
+
+git merge master origin/master
