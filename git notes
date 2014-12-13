@@ -1,0 +1,25 @@
+Notes on Git Commands:
+
+git checkout		checkouts a branch
+
+git status			show status
+
+git logs			show logs
+git log --graph --oneline	show logs in graph form with each commit as a line
+
+git branch			Lists branches in repository
+
+git add	<file>		Adds a file from working to staging
+
+git commit			Commits all changes from staging to repository
+
+
+git diff			Compares changes between working and staging
+git diff --staged	Compares changes between staging and repository
+
+git remote			Lists remote repositories
+git remote add origin <remote url>	Add a remote repository
+
+git push origin master	Pushes branch to the remote
+
+git pull origin master	Pulls branch to local repository
